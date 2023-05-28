@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: #03045E;
+    font-family: 'Roboto', sans-serif;
+    color: #CAF0F8;
+    height: 100vh;
+
+}
+
+header {
+    display: grid;
+    background-color: #023E8A;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #CAF0F8;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+header h2{
+    padding: 20px;
+    background: #CAF0F8;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: #03045E;
+    font-weight: 900;
+}
+
+header nav {
+    
+}
+
+header nav ul{
+    list-style: none;
+
+}
+
+header nav ul li{
+    border: 1px solid #CAF0F8;
+}
+
+
+header nav ul li:last-child{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+header nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+header nav ul li a:hover {
+    background-color: #48CAE4;
+    color: #03045E;
+
+    
+}
+
+header nav ul li:last-child a:hover {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
