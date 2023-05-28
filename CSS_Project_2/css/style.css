@@ -64,9 +64,11 @@ header nav ul li a{
     font-weight: 400;
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover,
+header nav ul li a:focus {
     background-color: #48CAE4;
     color: #03045E;
+    cursor: pointer;
 
     
 }
